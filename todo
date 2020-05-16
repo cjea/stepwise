@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ruby /usr/local/bin/_todo/main.rb "$@"
+

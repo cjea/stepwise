@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.content {
+  /* background-image: linear-gradient(slategray, white); */
+  background-image: url("https://picsum.photos/seed/picsum/200?random=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+  border: thin dotted white;
+  height: 70vh;
+  width: 70vw;
+  overflow: hidden;
+}
+
+h2 {
+  color: black;
+}
+
+.task {
+  padding-top: 50px;
+  color: black;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  height: 70vh;
+  margin-bottom: 30vh;
+}
+
+.task.done {
+  display: none
+}
+
+.nav-arrow {
+  border-radius: 3px;
+  margin: 5px;
+  text-align: center;
+  opacity: 0.6;
+  background-color: lightgreen;
+  width: 50%;
+  min-height: 5vh;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.nav-arrow:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.all-done {
+  min-height: 70vh;
+  min-width: 70vh;
+  border: thick black;
+  color: black;
+  font-size: 4rem;
+}
