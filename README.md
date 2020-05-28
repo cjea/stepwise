@@ -1,7 +1,7 @@
 Render some todos.
 
 ```bash
-  $ todo <todo_path> <out_path>
+  $ ruby main.rb <todo_path> <out_path>.html
 ```
 
 The `<todo_path>` file should look like the following.
