@@ -4,11 +4,12 @@ Render some todos.
   $ todo <todo_path> <out_path>
 ```
 
-The <todo_path> file should look like the following.
-----------------------------------------------------
+The `<todo_path>` file should look like the following.
+
+```
 : Task to do
-  a small description
-  {a place for input}
+  a small description (with embedded html)
+  <textarea></textarea>
 : Other task
   description
-
+```
